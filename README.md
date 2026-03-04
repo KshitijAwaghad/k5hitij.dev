@@ -49,31 +49,6 @@ A modern personal portfolio built with Next.js, TypeScript, and Tailwind CSS.
 
 ---
 
-## Getting Started
-
-### 1. Install dependencies
-
-```bash
-npm install
-```
-
-### 2. Run development server
-
-```bash
-npm run dev
-```
-
-Visit: `http://localhost:3000`
-
-### 3. Build for production
-
-```bash
-npm run build
-npm start
-```
-
----
-
 ## Blog System (Markdown)
 
 Blog posts are stored in:
@@ -116,18 +91,6 @@ Update portfolio data from:
 The contact form submits through Formspree endpoint configured in:
 
 - `components/Contact.tsx`
-
-Make sure your Formspree form is active and verified.
-
----
-
-## Deployment
-
-### Deploy on Vercel (recommended)
-
-1. Push this repo to GitHub
-2. Import repo in Vercel
-3. Deploy (auto-detects Next.js)
 
 ---
 
