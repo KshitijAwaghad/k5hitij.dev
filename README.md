@@ -4,7 +4,7 @@ A modern personal portfolio built with Next.js, TypeScript, and Tailwind CSS.
 
 ### Deployed on Vercel
 
-k5hitijdev.vercel.app
+https://k5hitijdev.vercel.app
 
 ## Live Features
 
