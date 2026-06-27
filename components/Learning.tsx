@@ -1,4 +1,4 @@
-const learningTopics: string[] = ["System Design", "AI Optimization", "DevOps Basics", "Performance Engineering"];
+const learningTopics: string[] = ["System Design", "AI Optimization", "QA Testing", "Performance Engineering"];
 
 export default function Learning() {
   return (

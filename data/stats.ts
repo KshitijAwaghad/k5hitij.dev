@@ -1,11 +1,9 @@
 export interface StatItem {
+  id: string;
   label: string;
-  value: string;
 }
 
 export const stats: StatItem[] = [
-  { label: "Projects Built", value: "6+" },
-  { label: "GitHub Commits", value: "300+" },
-  { label: "AI-Based Systems", value: "2" },
-  { label: "Smart Campus Platform Designed", value: "1" }
+  { id: "projects-showcased", label: "Projects Showcased" },
+  { id: "github-public-repos", label: "Public Repositories" }
 ];

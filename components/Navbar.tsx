@@ -10,7 +10,6 @@ const navLinks: Array<{ label: string; href: string }> = [
   { label: "Projects", href: "/#projects" },
   { label: "System Design", href: "/#system-design" },
   { label: "Skills", href: "/#skills" },
-  { label: "Blog", href: "/blog" },
   { label: "Contact", href: "/#contact" }
 ];
 

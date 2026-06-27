@@ -6,7 +6,6 @@ import SystemDesign from "@/components/SystemDesign";
 import Skills from "@/components/Skills";
 import Learning from "@/components/Learning";
 import GitHubSection from "@/components/GitHubSection";
-import BlogPreview from "@/components/BlogPreview";
 import RecruiterCTA from "@/components/RecruiterCTA";
 import Contact from "@/components/Contact";
 
@@ -21,7 +20,6 @@ export default function HomePage() {
       <Skills />
       <Learning />
       <GitHubSection />
-      <BlogPreview />
       <RecruiterCTA />
       <Contact />
     </>

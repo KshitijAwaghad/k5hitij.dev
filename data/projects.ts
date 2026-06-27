@@ -40,3 +40,5 @@ export const projects: Project[] = [
     liveUrl: "https://performance-audit-toolkit.vercel.app"
   }
 ];
+
+export const showcasedProjectCount = projects.length;

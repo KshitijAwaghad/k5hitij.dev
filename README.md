@@ -13,7 +13,6 @@ https://k5hitijdev.vercel.app
 - Sticky navbar with animated mobile hamburger menu
 - Hero, Impact metrics, Featured project, Projects, Skills, Learning, GitHub section
 - Recruiter CTA + Contact form (Formspree integration)
-- Markdown-based blog system with static generation
 - Smooth scrolling + subtle section/card animations
 - Social links (GitHub, LinkedIn, X, Email)
 
@@ -25,8 +24,6 @@ https://k5hitijdev.vercel.app
 - React
 - TypeScript
 - Tailwind CSS
-- gray-matter
-- remark + remark-html
 - react-github-calendar
 - lucide-react
 
@@ -39,42 +36,36 @@ https://k5hitijdev.vercel.app
   layout.tsx
   page.tsx
   globals.css
-  /blog
-    page.tsx
-    /[slug]
-      page.tsx
 
 /components
-/content/blog
 /data
-/lib
 /public
 ```
 
 ---
 
-## Blog System (Markdown)
+## Getting Started
 
-Blog posts are stored in:
+### 1. Install dependencies
 
-- `content/blog/*.md`
-
-Each post needs frontmatter:
-
-```md
----
-title: "Post Title"
-date: "YYYY-MM-DD"
-description: "Short summary"
----
-
-Your markdown content here...
+```bash
+npm install
 ```
 
-Routes are generated automatically:
+### 2. Run development server
 
-- `/blog`
-- `/blog/[slug]`
+```bash
+npm run dev
+```
+
+Visit: `http://localhost:3000`
+
+### 3. Build for production
+
+```bash
+npm run build
+npm start
+```
 
 ---
 
